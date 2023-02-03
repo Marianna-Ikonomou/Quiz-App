@@ -7,7 +7,13 @@ body {
   color: rgb(237, 0, 119);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
-  font-size: ;
+}
+li {
+  background-color: aliceblue;
+  border-style: double;
+  border-radius: 8px;
+  text-align: center;
+  margin: 2%;
 }
 
 .quiz-background {
@@ -18,21 +24,43 @@ body {
   text-align: center;
   border-radius: 8px;
 }
-.question1 {
+.question {
   background-color: rgb(199, 241, 136);
   text-align: center;
   border: 4px;
-  padding: 10px;
+  padding: 25px;
   border-style: double;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  row-gap: 50px;
 }
-.button {
-  border: none;
+button {
+  border-color: bisque;
   background-color: rgb(245, 225, 228);
   color: rgb(0, 203, 20);
   border-radius: 5px;
+  margin-top: 2%;
 }
-h5 {
-  text-align: start;
-  background-color: rgb(245, 225, 228);
-  border-radius: 10px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}
+.label {
+  width: 0px;
+  height: 0px;
+  border-top: 28px solid rgb(237, 0, 119);
+  border-bottom: 13px solid transparent;
+  border-right: 13px solid rgb(237, 0, 119);
+  border-left: 13px solid rgb(237, 0, 119);
+}
+
+.bookmark {
+  position: relative;
+  bottom: 365px;
+  left: 540px;
 }
