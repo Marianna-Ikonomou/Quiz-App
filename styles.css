@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: auto;
-  background-color: greenyellow;
+  background-color: rgb(164, 245, 41);
   color: rgb(237, 0, 119);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
@@ -33,8 +33,6 @@ li {
   border-radius: 9px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-self: center;
   row-gap: 50px;
 }
 button {
@@ -53,14 +51,19 @@ button {
 .label {
   width: 0px;
   height: 0px;
-  border-top: 28px solid rgb(237, 0, 119);
-  border-bottom: 13px solid transparent;
-  border-right: 13px solid rgb(237, 0, 119);
-  border-left: 13px solid rgb(237, 0, 119);
+  border-top: 38px solid rgb(237, 0, 119);
+  border-bottom: 18px solid transparent;
+  border-right: 18px solid rgb(237, 0, 119);
+  border-left: 18px solid rgb(237, 0, 119);
 }
 
 .bookmark {
   position: relative;
-  bottom: 365px;
-  left: 540px;
+  bottom: 395px;
+  left: 565px;
+}
+
+.dark {
+  background-color: rgb(253, 115, 184);
+  color: white;
 }
