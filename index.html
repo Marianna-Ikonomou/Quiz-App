@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./styles.css" ; />
+    <script src="/index.js" defer></script>
   </head>
   <body>
+    <main class="main" data-js="main">
     <header>
 
       <section class="quiz-background">
@@ -21,16 +23,17 @@
     
         <ul style="list-style: none;">
         <li>266</li>
-        <li>206</li>
+        <li data-js="correct-answer1">206</li>
         <li>316</li>
       </ul>
       </section>
       
-      <button>Show Answer</button>
+      <button type="button1" data-js="show-answer1">Show Answer</button>
 
-      <div class="bookmark">
+      <div class="bookmark dark-mode" >
       <div class="container"></div>
       <div class="label"></div>
+      
     </div>
     <section class="question">
         
@@ -39,10 +42,10 @@
       <ul style="list-style: none;">
       <li>Stephen Hawking</li>
       <li>King Gizzard & the Lizard Wizard</li>
-      <li>Stephen King</li>
+      <li data-js="correct-answer2">Stephen King</li>
     </ul>
     </section>
-    <button>Show Answer</button>
+    <button type="button2" data-js="show-answer2">Show Answer</button>
 
     <div class="bookmark">
     <div class="container"></div>
@@ -53,12 +56,12 @@
     <p><strong>Who was the first American astronaut to step foot on the moon?</strong></p>
 
     <ul style="list-style: none;">
-    <li>Neil Armstrong</li>
+    <li data-js="correct-answer3">Neil Armstrong</li>
     <li>Neil Young</li>
     <li>Angus Young</li>
   </ul>
   </section>
-  <button>Show Answer</button>
+  <button type="button3" data-js="show-answer3">Show Answer</button>
 
   <div class="bookmark">
   <div class="container"></div>
@@ -68,5 +71,6 @@
     <footer>
         <p></p>
     </footer>
+  </main>
   </body>
 </html>
